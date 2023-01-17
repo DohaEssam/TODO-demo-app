@@ -22,10 +22,6 @@ module.exports = function (app) {
         type: mongoose.SchemaTypes.Email,
         required: [true, "Email is required"],
       },
-      // tasks: {
-      //   type: mongoose.Schema.Types.ObjectId,
-      //   ref: "task",
-      // },
     },
     {
       timestamps: true,
